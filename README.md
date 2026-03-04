@@ -57,10 +57,10 @@
 
 ### 前置准备
 
-[Node.js](https://nodejs.org/zh-cn) 18 及以上版本。
-通过命令行界面 (CLI) 访问 VitePress 的终端。
-支持 Markdown 语法的编辑器。
-推荐 [VSCode](https://code.visualstudio.com/) 及其[官方 Vue 扩展](https://marketplace.visualstudio.com/items?itemName=Vue.volar)。
+- [Node.js](https://nodejs.org/zh-cn) 18 及以上版本。
+- 通过命令行界面 (CLI) 访问 VitePress 的终端。
+- 支持 Markdown 语法的编辑器。
+- 推荐 [VSCode](https://code.visualstudio.com/) 及其[官方 Vue 扩展](https://marketplace.visualstudio.com/items?itemName=Vue.volar)。
 
 ### 存储库克隆
 
