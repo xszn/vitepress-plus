@@ -44,11 +44,10 @@
  * -------------------------------------------------------------------------- */
 
 @import "tailwindcss";
-@import "flowbite-vue/index.css";
 
-@plugin "flowbite/plugin";
+@custom-variant dark (&:where(.dark, .dark *));
 
-@source "../../node_modules/flowbite-vue";
+@source "../../";
 
 :root {
   --vp-c-default-1: var(--vp-c-gray-1);
@@ -99,17 +98,13 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #bd34fe 30%,
-    #41d1ff
-  );
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
+      #bd34fe 30%,
+      #41d1ff);
 
-  --vp-home-hero-image-background-image: linear-gradient(
-    -45deg,
-    #bd34fe 50%,
-    #47caff 50%
-  );
+  --vp-home-hero-image-background-image: linear-gradient(-45deg,
+      #bd34fe 50%,
+      #47caff 50%);
   --vp-home-hero-image-filter: blur(44px);
 }
 
