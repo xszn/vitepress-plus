@@ -1,5 +1,3 @@
-/* https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css */
-
 :root {
   --vp-c-brand-1: #646cff;
   --vp-c-brand-2: #747bff;
@@ -16,7 +14,9 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
-      #bd34fe,
-      #41d1ff);
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #bd34fe,
+    #41d1ff
+  );
 }
