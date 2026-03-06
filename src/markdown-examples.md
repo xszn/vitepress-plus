@@ -1,5 +1,7 @@
 # Markdown Extension Examples
 
+![](https://xszn.org/images/ogp.webp)
+
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
 
 ## Syntax Highlighting
@@ -87,17 +89,21 @@ This is a details block.
 ```
 + .vitepress
   + config
-    + headConfig.js
-    + navItem.js
+    + head.js
+    + nav.js
     + sidebar.js
-    + socialLinks.js
-    + themeConfig.js
+    + social.js
+    + theme.js
   + theme
     + components
       + Ads.vue
       + index.ts
+    + plugins
+      + index.js
+      + medium-zoom.js
     + custom.css
     + index.js
+    + Layout.vue
     + style.css
   + config.mjs
 + src

@@ -1,6 +1,6 @@
-import nav from "./navItem";
+import nav from "./nav";
 import sidebar from "./sidebar";
-import socialLinks from "./socialLinks";
+import socialLinks from "./social";
 
 export default {
   // https://vitepress.dev/zh/reference/default-theme-config
