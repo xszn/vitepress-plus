@@ -67,10 +67,10 @@ export default {
     },
   },
   ads: {
-    src: "",
-    alt: "",
-    text: "",
     link: "",
+    details: "",
+    image: "",
+    alt: "",
     sponsor: "",
   },
   notFound: {

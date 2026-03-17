@@ -8,12 +8,12 @@ const { theme } = useData()
   <div class="ads">
     <span>
       <span>
-        <a :href="theme.ads.src" target="_blank" rel="noreferrer sponsored">
-          <img :src="theme.ads.src" :alt="theme.ads.alt" />
-          <span class="ads-text">{{ theme.ads.text }}</span>
+        <a :href="theme.ads.link" target="_blank" rel="noreferrer sponsored">
+          <img :src="theme.ads.image" :alt="theme.ads.alt" />
+          <span class="ads-text">{{ theme.ads.details }}</span>
         </a>
       </span>
-      <span class="ads-poweredby" v-if="theme.ads.src && theme.ads.text">赞助商广告</span>
+      <span class="ads-poweredby" v-if="theme.ads.link">赞助商广告</span>
       <span class="ads-poweredby" v-else>
         <a :href="theme.ads.sponsor">
           <span class="ads-text">成为赞助商</span>
